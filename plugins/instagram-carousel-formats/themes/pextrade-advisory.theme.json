@@ -1,0 +1,283 @@
+{
+  "client": "pextrade-law",
+  "brand_name": "Pextrade Advisory",
+  "generated_from": "clients/pextrade-law/brand-scheme.md",
+  "generated_on": "2026-11-14",
+  "note": "Every value here comes from brand-scheme.md. Change the scheme first, then this file. Colours are named once in palette; everything else refers to them by name.",
+
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "safe_margin": { "top": 60, "right": 60, "bottom": 60, "left": 60 }
+  },
+
+  "palette": {
+    "burgundy": "#3b060a",
+    "card": "#231A1A",
+    "cream": "#FAF9F6",
+    "muted": "#B5A898",
+    "gold": "#C4956D",
+    "gold_light": "#D4B48C",
+    "border": "#382E2E",
+    "burgundy_structural": "#5A1212",
+    "white": "#FFFFFF",
+    "red": "#c0392b"
+  },
+
+  "forbidden_colours": [
+    "#0d1b2a", "#0f2537", "#181010", "#1A1211", "#3D0A0A",
+    "#191414", "#bc9353", "#8B1A1A", "#c9a84c"
+  ],
+
+  "fonts": {
+    "display": { "family": "Playfair Display", "fallback": ["Liberation Serif", "Georgia", "Times New Roman", "serif"] },
+    "body": { "family": "DM Sans", "fallback": ["Liberation Sans", "Arial", "Helvetica", "sans-serif"] },
+    "symbols": { "fallback": ["DejaVu Sans", "Segoe UI Symbol", "Noto Sans Symbols2", "sans-serif"] },
+    "web_css_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;700&display=swap",
+    "required_faces": [
+      { "family": "Playfair Display", "weight": 900, "style": "normal" },
+      { "family": "Playfair Display", "weight": 700, "style": "normal" },
+      { "family": "Playfair Display", "weight": 700, "style": "italic" },
+      { "family": "DM Sans", "weight": 300, "style": "normal" },
+      { "family": "DM Sans", "weight": 400, "style": "normal" },
+      { "family": "DM Sans", "weight": 700, "style": "normal" }
+    ]
+  },
+
+  "slide_themes": {
+    "dark": {
+      "background": "burgundy",
+      "text": "cream",
+      "brand_mark": "gold",
+      "counter": "gold",
+      "eyebrow": "gold",
+      "accent": "gold",
+      "subline": "gold_light",
+      "swipe": "gold"
+    },
+    "cream": {
+      "background": "cream",
+      "text": "card",
+      "brand_mark": "burgundy",
+      "counter": "burgundy",
+      "eyebrow": "gold",
+      "accent": "gold",
+      "subline": "card",
+      "swipe": "gold"
+    }
+  },
+
+  "sequence": ["dark", "cream", "dark", "cream", "dark", "dark", "cream"],
+
+  "layout": {
+    "padding": { "y": 90, "x": 80 },
+    "brand_mark": { "top": 60, "left": 60 },
+    "counter": { "top": 60, "right": 60, "format": "{n}/{total}" },
+    "swipe": { "bottom": 60, "right": 60 },
+    "show_handle_footer": false
+  },
+
+  "type": {
+    "brand_mark": { "font": "body", "weight": 700, "size": 18, "letter_spacing": "3px", "uppercase": true },
+    "counter": { "font": "body", "weight": 300, "size": 22 },
+    "cover_headline": { "font": "display", "weight": 900, "size": 68, "line_height": 1.08, "margin_bottom": 32 },
+    "cover_subline": { "font": "body", "weight": 300, "size": 28, "line_height": 1.5, "margin_top": 8 },
+    "swipe": { "font": "body", "weight": 700, "size": 22, "letter_spacing": "1px" },
+    "eyebrow": { "font": "body", "weight": 300, "size": 22, "letter_spacing": "4px", "uppercase": true, "margin_bottom": 28 },
+    "headline": { "font": "display", "weight": 700, "size": 54, "line_height": 1.12, "margin_bottom": 28 },
+    "body": { "font": "body", "weight": 400, "size": 28, "line_height": 1.65 },
+    "accent_word": { "style": "italic", "weight": 700 },
+    "handle": { "font": "body", "weight": 400, "size": 21, "letter_spacing": "0.12em", "uppercase": true }
+  },
+
+  "tags": {
+    "myth": {
+      "label": "The Myth",
+      "background": "red", "text": "white",
+      "font": "body", "weight": 700, "size": 18, "letter_spacing": "3px",
+      "padding": "6px 18px", "margin_bottom": 22
+    },
+    "solution": {
+      "label": "The Solution",
+      "border": "gold", "text": "gold",
+      "font": "body", "weight": 700, "size": 18, "letter_spacing": "4px",
+      "padding": "4px 16px", "margin_bottom": 22
+    }
+  },
+
+  "fixed_text": {
+    "brand_mark": "Pextrade Advisory",
+    "swipe": "Swipe to learn →",
+    "handle": "@pextradelaw",
+    "tagline": "Clarity. Guidance. Results. Protecting what matters most.",
+    "email": "PextradeAdvisory@outlook.com"
+  },
+
+  "closing": {
+    "default": "standard",
+    "by_category": { "Estates": "estates" },
+
+    "standard": {
+      "layout": "cta",
+      "theme": "cream",
+      "padding": 80,
+      "ornament": { "text": "◈ ◎ ⚖", "colour": "gold", "size": 42, "letter_spacing": "20px", "margin_bottom": 44 },
+      "headline": { "text": "Get clarity. Protect what matters most.", "font": "display", "style": "italic", "weight": 700, "size": 48, "line_height": 1.25, "colour": "card" },
+      "rule": { "width": 60, "height": 2, "colour": "gold", "margin": "32px auto" },
+      "contact": { "text": "PextradeAdvisory@outlook.com", "font": "body", "weight": 300, "size": 20, "colour": "burgundy" }
+    },
+
+    "estates": {
+      "layout": "diamond",
+      "theme": "cream",
+      "content_width": 856,
+      "gap": 32,
+      "diamond": { "size": 180, "outer": { "colour": "gold", "stroke": 2.4 }, "mid": { "colour": "gold_light", "stroke": 1, "inset": 18 }, "centre": { "colour": "gold", "inset": 36 }, "margin_bottom": 48 },
+      "name": { "text": "Pextrade Advisory", "font": "display", "style": "italic", "weight": 700, "size": 48, "colour": "burgundy" },
+      "rule": { "width": 200, "height": 2, "colour": "gold", "margin": "16px auto" },
+      "tagline": { "text": "CLARITY · GUIDANCE · RESULTS", "font": "body", "weight": 400, "size": 21, "letter_spacing": "0.22em", "colour": "gold_light", "margin_bottom": 48 },
+      "headline": { "text": "If you need an Estate Plan, Will, or POA done.", "font": "display", "style": "italic", "weight": 700, "size": 58, "line_height": 1.15, "colour": "burgundy", "margin_bottom": 16 },
+      "contact": { "text": "contact PextradeAdvisory@outlook.com", "font": "body", "weight": 300, "size": 28, "line_height": 1.7, "colour": "card" },
+      "disclaimer": { "text": "General legal information. Not legal advice.", "font": "body", "weight": 400, "size": 21, "letter_spacing": "0.12em", "uppercase": true, "colour": "card", "opacity": 0.7, "rule_colour": "border", "rule_opacity": 0.3, "rule_height": 2, "padding_top": 24 }
+    }
+  },
+
+  "covers": {
+    "_note": "Editorial covers for slide 1 (decision L11, 19 Nov 2026; restyled by decision L12 the same day, then set back to the master prompt as written by decision L16: cream paper, bold display serif, brush highlight, hand-drawn arrow, motto). Spec: clients/pextrade-law/cover-system.md. Everything that stays the same from post to post is here; the words that change (topic tag, headline, highlight, deck, strip, artwork) are in the post package. These colours are used on the cover slide only. They are not part of palette, so slides 2 to 7 are unchanged.",
+    "advisory_brief": {
+      "name": "The Advisory Brief",
+      "use_for": ["Law", "Legal Tech"],
+      "_use_for_note": "The post categories that get this cover when the cover slide names no layout. Law and Legal Tech are the two news categories (writer.json, cadence.news_categories), so this means news posts only. Whether Estates and Family Law use it too is not decided (cover-system.md section 6).",
+      "colours": {
+        "paper": "#FAF7F2",
+        "oxblood": "#3A0C0E",
+        "brass": "#B8926A",
+        "ink": "#1E1918"
+      },
+      "text": {
+        "firm": "PEXTRADE ADVISORY",
+        "masthead": "The Advisory Brief",
+        "band": "PEXTRADE ADVISORY · PLAIN-LANGUAGE LEGAL NEWS FOR ONTARIO",
+        "motto": "DEDICATED TO YOUR SUCCESS. · COMMITTED TO JUSTICE.",
+        "_motto_note": "The motto of Taimur's master prompt, drawn as he wrote it (decision L16, 19 Nov 2026). It had been left off while its wording waited for his confirmation; he instructed that the master prompt be followed as written. Noted once for the record: \"success\" in a law firm's marketing can read as a promise of results (rules/compliance-engine.md R2). The owner has decided.",
+        "disclaimer": "GENERAL LEGAL INFORMATION. NOT LEGAL ADVICE.",
+        "prompt": "SWIPE"
+      },
+      "fonts": {
+        "_note": "Decision L16 (19 Nov 2026): the cover is set as Taimur's master prompt says, in the brand display face (Playfair Display). The Newsreader restyle of decision L12 is withdrawn.",
+        "display": { "family": "Playfair Display", "fallback": ["Liberation Serif", "Georgia", "Times New Roman", "serif"] },
+        "web_css_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap",
+        "required_faces": [
+          { "family": "Playfair Display", "weight": 700, "style": "normal" },
+          { "family": "Playfair Display", "weight": 900, "style": "normal" },
+          { "family": "Playfair Display", "weight": 700, "style": "italic" }
+        ]
+      },
+      "style": {
+        "_note": "Decision L16 (19 Nov 2026): set back to the master prompt (cream paper, bold display serif, dry-brush highlight, hand-drawn arrow, paper grain). How the cover's type and marks are drawn. highlight: brush | italic | rule. arrow: sketch | plain. artwork_tone: colour | mono. detail_font: body | display. Leave a key out and the renderer uses its first design (renderer/render.js, AB_STYLE).",
+        "grain": true,
+        "highlight": "brush",
+        "arrow": "sketch",
+        "artwork_tone": "colour",
+        "seal": true,
+        "detail_font": "body",
+        "masthead": { "weight": 700, "size": 92, "tracking": 3 },
+        "headline": { "weight": 900, "line_height": 1.06, "tracking": 0 },
+        "deck": { "weight": 700, "size": 27 },
+        "figure": { "weight": 900, "tracking": 0 },
+        "detail": { "weight": 400, "size": 23 }
+      },
+      "date_locale": "en-CA",
+      "max_words": {
+        "_note": "The word budgets of cover-system.md section 4. A word is anything with a letter or a digit in it; a separator such as the middle dot is not counted. In the package the deck is the cover slide's subline.",
+        "headline": 13,
+        "deck": 12,
+        "topic_tag": 4,
+        "topic_tag_parts": 2,
+        "strip_label": 3,
+        "strip_figure": 2,
+        "strip_detail": 8
+      },
+      "strip_entries": 3,
+      "highlight_max_words": 3,
+      "art_sources": ["generated", "owner", "public_domain"],
+      "headline_sizes": [65, 61, 57, 53, 49, 45, 41],
+      "headline_max_lines": 6,
+      "figure_sizes": [74, 70, 66, 62, 58, 54, 50, 46, 42, 38],
+      "edge_gap": 36
+    },
+    "cutout_card": {
+      "name": "The Cutout Cover",
+      "_note": "Decision L13 (19 Nov 2026), Taimur's lock-and-swap template. Spec: clients/pextrade-law/cover-system.md, part B. The frame never changes: an oxblood card with rounded corners over the top 58% of the slide, the pillar monogram in its top-left corner, cream paper with a faint grid below, an italic lead-in above a heavy sans headline and a short summary, 'Swipe to learn more', the arrow in a circle, and the disclaimer. What changes per post: the artwork in the card (a cutout standing on the card's bottom edge in front of two tilted documents), the lead-in, the headline and the summary. It alternates with The Advisory Brief from post to post (clients/pextrade-law/writer.json, cadence.covers), so the cover slide always names its layout and use_for is empty.",
+      "template": "cutout_card",
+      "use_for": [],
+      "colours": {
+        "paper": "#FAF7F2",
+        "oxblood": "#3A0C0E",
+        "brass": "#B8926A",
+        "ink": "#1E1918",
+        "body": "#2C2C2C",
+        "muted": "#6F6A64"
+      },
+      "text": {
+        "prompt": "Swipe to learn more",
+        "disclaimer": "GENERAL LEGAL INFORMATION. NOT LEGAL ADVICE."
+      },
+      "max_words": { "lead_in": 4, "headline": 7, "summary": 32 },
+      "min_words": { "lead_in": 2, "headline": 4, "summary": 25 },
+      "_words_note": "Taimur's copy budget: lead-in 2 to 4 words (one line), headline 4 to 7 words (at most 2 lines), summary 25 to 32 words (at most 4 lines). In the package the lead-in is the cover slide's lead_in and the summary is its subline.",
+      "fonts": {
+        "_note": "The lead-in is set in the cover serif (Newsreader italic). The headline is DM Sans at weight 800, heavier than the 700 the other slides load. The summary and the action row are DM Sans 400 and 700.",
+        "display": { "family": "Newsreader", "fallback": ["Liberation Serif", "Georgia", "Times New Roman", "serif"] },
+        "web_css_url": "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,500&family=DM+Sans:wght@800&display=swap",
+        "required_faces": [
+          { "family": "Newsreader", "weight": 500, "style": "italic" },
+          { "family": "DM Sans", "weight": 800, "style": "normal" }
+        ]
+      },
+      "card": { "inset": 36, "height_percent": 58, "radius": 20 },
+      "grid": { "size": 54, "opacity": 0.06 },
+      "headline_sizes": [78, 74, 70, 66, 62, 58, 54, 50],
+      "headline_max_lines": 2,
+      "summary_max_lines": 4,
+      "art_sources": ["generated", "owner", "public_domain"],
+      "edge_gap": 36,
+      "cutouts": {
+        "_note": "Taimur's lookup table: which cutout and which two background sheets each kind of post gets. The writing routine fills the artwork prompt from this (cover-system.md, part B).",
+        "Estates": { "foreground": "a stack of bound estate law volumes topped with a wax-sealed scroll and a brass key", "background": "handwritten Last Will and Testament pages with calligraphy and witness signature lines" },
+        "Family Law": { "foreground": "a classical residential home facade, or balanced antique scales of justice", "background": "signed domestic or cohabitation contract pages and Ontario family court form excerpts" },
+        "Law": { "foreground": "neoclassical courthouse dome and columns, or a Lady Justice statue", "background": "legislative bill pages, Ontario Gazette notices and vintage broadsheet clippings" },
+        "Legal Tech": { "foreground": "suit-clad legal professionals ascending courthouse steps", "background": "clean cream prompt-interface cards and subtle antique brass circuit schematics" },
+        "Brand Pitch": { "foreground": "the target brand's headquarters architecture, flagship product or industry landmark", "background": "an annotated strategy memo, a KPI audit sheet and signed proposal pages" }
+      }
+    }
+  },
+
+  "rules": {
+    "slide_count": 7,
+    "first_slide": "cover",
+    "last_slide": "closing",
+    "max_words": {
+      "cover.headline": null,
+      "cover.subline": null,
+      "body.eyebrow": null,
+      "body.headline": 10,
+      "body.body": null
+    },
+    "forbidden_text": ["—", "–"],
+    "require_brand_fonts": true
+  },
+
+  "legacy_input": {
+    "watchtower": {
+      "category": "Estates",
+      "labels": {
+        "slide_2": "The Facts",
+        "slide_3": "The Myth",
+        "slide_4": "The Blind Spot",
+        "slide_5": "The Right Approach",
+        "slide_6": "The Solution"
+      }
+    }
+  }
+}

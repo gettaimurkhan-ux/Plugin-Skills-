@@ -10,7 +10,7 @@ review_days: 30
 
 # Plugin-Skills-
 
-A repository for Skills. One place for the Claude skills Pextrade AI uses across its businesses: marketing, SEO, AI-search visibility, social content, ads, email and plain writing. 273 skills in 6 packs, collected from public repositories and read before they were added.
+A repository for Skills. One place for the Claude skills Pextrade AI uses across its businesses: marketing, SEO, AI-search visibility, social content, ads, email and plain writing. 277 skills in 7 packs: Pextrade AI's own Instagram carousel formats, and six packs collected from public repositories and read before they were added.
 
 ## Use it in a project
 
@@ -27,6 +27,7 @@ Install only the packs a project needs. Each pack's skills are called as `pack:n
 
 | Pack | Source | Version taken | Skills | Licence |
 |---|---|---|---|---|
+| `instagram-carousel-formats` | Pextrade AI's own (from `law-firm-seo-content`) | `06e2e59` (2026-11-19) | 4 | Pextrade AI |
 | `no-ai-slop` | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | `000650b15698` (2026-09-01) | 1 | MIT |
 | `careful-marketing` | [rdoser13/free-claude-skills](https://github.com/rdoser13/free-claude-skills) | `4751aafc3159` (2026-10-19) | 12 | MIT |
 | `marketingskills` | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | `73573e94a06a` (2026-11-17) | 53 | MIT |
@@ -37,6 +38,10 @@ Install only the packs a project needs. Each pack's skills are called as `pack:n
 Two packs are renamed from their source, because Claude Code refuses plugin names that start with or contain "claude": `careful-marketing` is rdoser13/free-claude-skills and `seo-toolkit` is AgriciDaniel/claude-seo.
 
 Each pack keeps its author's licence in `plugins/<pack>/LICENSE`.
+
+## Instagram Carousel Formats
+
+Pextrade AI's own creative formats live in `plugins/instagram-carousel-formats/`: The Advisory Brief (`advisory-brief-cover`), The Cutout Cover (`cutout-cover`), the plain cover (`plain-cover`) and the rule that rotates them from post to post (`format-rotation`). The pack carries the renderer, the brand theme, one example and one reference image per format. New formats are added here as new skills.
 
 ## What was left out, and why
 

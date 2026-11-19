@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "id": "pextrade-law-cutout-card-example",
+  "note": "EXAMPLE FOR THE CUTOUT COVER (decision L13). DO NOT PUBLISH FROM THIS FILE. It is a layout example for renderer/render.js only: slides 2 to 7 and the captions are those of the news post written for 19 Nov 2026, and slide 1 carries the cutout cover's fields instead (layout, lead_in, headline, subline as the summary). Nobody screened this cover text and the compliance record below belongs to the earlier text, so its hash does not match and writer/check.js does not pass this file. The plan gives 19 Nov The Advisory Brief, not this cover. It names no artwork, so it renders with the stand-in facade and the render result says 'no artwork'.",
+  "client": "pextrade-law",
+  "date": "2026-11-19",
+  "slot": "11:00",
+  "category": "Law",
+  "title": "Law Society of Ontario Committee Proposes Digital Identity Checks for Real Estate Clients",
+  "tone": "Analytical",
+  "topic": {
+    "kind": "news",
+    "summary": "In a notice dated 17 November 2026 the Law Society of Ontario said its Professional Regulation Committee is consulting on a proposal to require licensees acting in real estate transactions to use digital identity authentication technology to verify a client's identity. The post reports what is proposed, the regulator's stated reason, the current general rule, and the timeline, and makes clear nothing has been adopted.",
+    "sources": [
+      {
+        "title": "Consultation: Requiring the use of digital identity authentication in real estate transactions",
+        "url": "https://lso.ca/news-events/news/latest-news-2026/consultation-requiring-the-use-of-digital-identity",
+        "publisher": "Law Society of Ontario",
+        "kind": "primary",
+        "published": "2026-11-17",
+        "retrieved": "2026-11-19",
+        "opened_in_session": true,
+        "supports": "The announcement itself: the date (November 17, 2026), who is proposing (Professional Regulation Committee), what is proposed (licensees acting in real estate transactions to use digital identity authentication technology to verify a client's identity), and the comment date of December 31, 2026."
+      },
+      {
+        "title": "Digital identity authentication (consultation page)",
+        "url": "https://lso.ca/about-lso/initiatives/trust-account-management-and-enforcement-project/digital-identity-authentication",
+        "publisher": "Law Society of Ontario",
+        "kind": "primary",
+        "retrieved": "2026-11-19",
+        "opened_in_session": true,
+        "supports": "The stated reason (conventional methods are an important foundation but have limitations in detecting identity theft-based fraud; whether additional safeguards are needed); who may respond and how (lawyers, paralegals, stakeholders and the public; consultation form); the changed submission date and the reason given (recent events showing an escalation in real estate fraud); recommendations to Convocation early in the new year; that the consultation is part of the Trust Account Management and Enforcement project. The page carries no publication date of its own. Its link to the consultation report (PDF on another host) could not be opened, so no detail from the report is used."
+      },
+      {
+        "title": "Client identification and verification questionnaire",
+        "url": "https://lso.ca/lawyers/practice-supports-and-resources/topics/the-lawyer-client-relationship/client-identification-and-verification",
+        "publisher": "Law Society of Ontario",
+        "kind": "primary",
+        "retrieved": "2026-11-19",
+        "opened_in_session": true,
+        "supports": "The statement of the current general rule on slide 4 and in the Facebook and LinkedIn captions: licensees must take steps to verify the identity of a client when engaged in or giving instructions in respect of the receipt, payment or transfer of funds on behalf of the client. This is the regulator's guidance page, not the by-law text; no by-law section is cited."
+      },
+      {
+        "title": "Trust account management and enforcement project",
+        "url": "https://lso.ca/about-lso/initiatives/trust-account-management-and-enforcement-project",
+        "publisher": "Law Society of Ontario",
+        "kind": "primary",
+        "retrieved": "2026-11-19",
+        "opened_in_session": true,
+        "supports": "What the project is (review of rules on licensee handling of client funds and property); that Convocation approved amendments to By-Law 9 in February 2026 to implement the Trust Account Authorization Requirement."
+      },
+      {
+        "title": "Protecting the public from financial misconduct",
+        "url": "https://lso.ca/news-events/news/latest-news-2026/protecting-the-public-from-financial-misconduct",
+        "publisher": "Law Society of Ontario",
+        "kind": "primary",
+        "published": "2026-11-09",
+        "retrieved": "2026-11-19",
+        "opened_in_session": true,
+        "supports": "The LinkedIn paragraph on the statement of November 9, 2026: the need to do more to identify and respond proactively to financial misconduct, dialogue with government about additional measures, engagement with title insurers on information sharing."
+      },
+      {
+        "title": "LSO committee pitches use of tech to authenticate client identity",
+        "url": "https://www.lawtimesnews.com/news/general/lso-committee-pitches-use-of-tech-to-authenticate-client-identity/393578",
+        "publisher": "Law Times",
+        "kind": "secondary",
+        "published": "2026-11-18",
+        "retrieved": "2026-11-19",
+        "opened_in_session": true,
+        "supports": "Confirms the Law Society's announcement and the December 31 date. Used only for the LinkedIn line that Law Times reported on the proposal on November 18, 2026. Its references to allegations against lawyers and to a court's criticism of the regulator are deliberately not used."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "cutout_card",
+      "lead_in": "Real Estate in Ontario",
+      "headline": "Digital Identity Checks Proposed for Closings",
+      "subline": "A Law Society of Ontario committee has proposed digital identity checks for real estate deals. Feedback is open until December 31. Nothing has been adopted yet."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The News",
+      "headline": "A Proposal, Not Yet a Rule",
+      "body": "In a notice dated November 17, 2026, the Law Society of Ontario said its Professional Regulation Committee is seeking feedback on a proposal: licensees acting in real estate transactions would be required to use digital identity authentication technology to verify a client's identity."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Reason",
+      "headline": "The Regulator Sees Limits in Conventional Checks",
+      "body": "On its consultation page, the Law Society says conventional verification methods are an important foundation, but have limitations in detecting fraud based on identity theft. It is considering whether additional safeguards are needed to strengthen identity verification."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Rule Today",
+      "headline": "Identity Checks Already Apply When Money Moves",
+      "body": "The general rule in Law Society guidance: lawyers and paralegals must take steps to verify a client's identity when they are engaged in, or giving instructions about, the receipt, payment or transfer of funds for that client."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Timeline",
+      "headline": "Comments Are Requested by December 31, 2026",
+      "body": "Lawyers, paralegals, stakeholders and the public can respond through a consultation form. The committee shortened the comment period, citing recent events showing an escalation in real estate fraud, so it can bring recommendations to Convocation early in the new year."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Solution",
+      "headline": "One Part of a Wider Project on Client Money",
+      "body": "The consultation belongs to the Law Society's Trust Account Management and Enforcement project. In February 2026, Convocation approved a Trust Account Authorization Requirement under that project. The digital identity proposal has not been adopted. General legal information. Not legal advice."
+    },
+    {
+      "type": "closing"
+    }
+  ],
+  "captions": {
+    "instagram": {
+      "text": "Ontario's legal regulator is consulting on digital identity checks in real estate deals.\n\nThe Law Society of Ontario published the notice on November 17, 2026.\n\nThe proposal: legal professionals it licenses who act in real estate transactions would have to use digital identity authentication technology to verify a client's identity.\n\nThe Law Society says conventional checks have limitations in detecting fraud based on identity theft.\n\nIt's a proposal, not a rule. Feedback from the profession and the public is requested by December 31, 2026.\n\nSave this post to keep the dates handy.\n\nSource: Law Society of Ontario, lso.ca, November 17, 2026. Shared by Pextrade Advisory.\n\nThis is general information for educational purposes, not legal advice. Every situation is different. Speak with a lawyer about your circumstances.",
+      "hashtags": [
+        "#OntarioLaw",
+        "#LawSocietyOfOntario",
+        "#RealEstateLaw",
+        "#OntarioRealEstate",
+        "#RealEstateFraud",
+        "#IdentityTheft",
+        "#IdentityVerification",
+        "#DigitalIdentity",
+        "#FraudPrevention",
+        "#RealEstateTransactions",
+        "#HomeBuyers",
+        "#HomeSellers",
+        "#TorontoRealEstate",
+        "#OttawaRealEstate",
+        "#CanadianLaw",
+        "#LegalNews",
+        "#LawNews",
+        "#LegalRegulation",
+        "#PublicConsultation",
+        "#ConsumerProtection",
+        "#ClientFunds",
+        "#TrustAccounts",
+        "#LegalEducation",
+        "#LegalInformation",
+        "#KnowTheLaw",
+        "#Ontario",
+        "#Toronto",
+        "#Canada",
+        "#RealEstateClosing",
+        "#PextradeAdvisory"
+      ]
+    },
+    "facebook": {
+      "text": "Ontario's legal regulator is asking whether identity checks in real estate deals should go digital.\n\nIn a notice dated November 17, 2026, the Law Society of Ontario said its Professional Regulation Committee is seeking feedback on a proposal. Licensees acting in real estate transactions would be required to use digital identity authentication technology to verify a client's identity.\n\nThe Law Society's reasoning is short. It says conventional verification methods are an important foundation, but they have limitations in detecting fraud based on identity theft. So it's considering whether additional safeguards are needed.\n\nSome checks already exist. The general rule in Law Society guidance is that lawyers and paralegals must take steps to verify a client's identity when they are engaged in, or giving instructions about, the receipt, payment or transfer of funds for that client. The proposal would add a technology requirement for real estate work.\n\nThe proposal has not been adopted. Feedback from lawyers, paralegals, stakeholders and the public is requested by December 31, 2026. The committee shortened the comment period, citing recent events showing an escalation in real estate fraud, so it can bring recommendations to Convocation early in the new year.\n\nSource: Law Society of Ontario, \"Consultation: Requiring the use of digital identity authentication in real estate transactions\", November 17, 2026. Shared by Pextrade Advisory.\n\nThis is general information for educational purposes, not legal advice. Every situation is different. Speak with a lawyer about your circumstances."
+    },
+    "linkedin": {
+      "text": "A Law Society of Ontario committee has proposed requiring digital identity checks in real estate deals.\n\nThe regulator published the notice on November 17, 2026. Its Professional Regulation Committee is seeking feedback on a proposal to require licensees acting in real estate transactions to use digital identity authentication technology to verify a client's identity.\n\nThe stated reason is narrow. The Law Society says conventional verification methods provide an important foundation for client identification and verification, but have limitations in detecting fraud based on identity theft. It is considering whether additional safeguards are needed to strengthen the process and further protect the public.\n\nIdentity checks are not new. The general rule in the Law Society's own guidance is that lawyers and paralegals must take steps to verify a client's identity when they are engaged in, or giving instructions about, the receipt, payment or transfer of funds on the client's behalf. The proposal would add a technology requirement for real estate work.\n\nThe timing has changed. Feedback is now requested by December 31, 2026. The Law Society says the committee moved the date because of recent events showing an escalation in real estate fraud, and that a shorter consultation lets it bring recommendations to Convocation early in the new year. Lawyers, paralegals, stakeholders and the public can respond through a consultation form.\n\nThis sits inside a longer piece of work. The Trust Account Management and Enforcement project reviews the rules on how licensees handle client funds and property. In February 2026, Convocation approved amendments to By-Law 9 to bring in a Trust Account Authorization Requirement. In a statement on November 9, 2026, the Law Society said it needs to do more to identify and respond proactively to financial misconduct. It also said it is in dialogue with government about additional measures and is engaging with title insurers to improve information sharing.\n\nFor people buying or selling property in Ontario, the general point is that the way a lawyer confirms a client's identity could change if the proposal is adopted. It has not been adopted. The committee's recommendations are in a consultation report linked from the Law Society's page. This post covers only the Law Society's public summary.\n\nSource: Law Society of Ontario, \"Consultation: Requiring the use of digital identity authentication in real estate transactions\", November 17, 2026. Law Times reported on the proposal on November 18, 2026. Shared by Pextrade Advisory.\n\nThis is general information for educational purposes, not legal advice. Every situation is different. Speak with a lawyer about your circumstances."
+    }
+  },
+  "gbp": {
+    "publishable": false,
+    "phase_note": "Not publishable until Phase 3: no confirmed Google Business listing and no Google API access (MASTER_PLAN.md, open decision O4).",
+    "topic_type": "STANDARD",
+    "text": "The Law Society of Ontario is consulting on digital identity checks in real estate deals.\n\nIn a notice dated November 17, 2026, the Law Society said its Professional Regulation Committee is seeking feedback on a proposal to require licensees acting in real estate transactions to use digital identity authentication technology to verify a client's identity. The Law Society says conventional verification methods have limitations in detecting fraud based on identity theft.\n\nThe proposal has not been adopted. Feedback from lawyers, paralegals, stakeholders and the public is requested by December 31, 2026, and the Law Society says the committee will be able to bring recommendations to Convocation early in the new year.\n\nSource: Law Society of Ontario, November 17, 2026. Shared by Pextrade Advisory.\n\nThis is general information for educational purposes, not legal advice. Every situation is different. Speak with a lawyer about your circumstances.",
+    "cta": {
+      "type": "NONE",
+      "url": null,
+      "note": "No website address is confirmed for this client (brand-scheme.md section 6), so there is no link to give a button."
+    }
+  },
+  "compliance": {
+    "verdict": "PASS",
+    "engine": "rules/compliance-engine.md v1.0, rules R1 to R11",
+    "screened_by": "Example record. The screen was run on the post before the cover fields were added (Claude, cloud session run by hand, 18 Nov 2026). Not a screen of this text: see the note at the top of this file",
+    "screened_at": "2026-11-18T23:40:00-05:00",
+    "rounds": 3,
+    "rules": [
+      {
+        "id": "R1",
+        "result": "flag",
+        "note": "Read statement by statement against the six pages opened in this session. Every statement on the slides, in the three captions and in the Google post traces to a sentence on a Law Society of Ontario page (five pages) or, for one line, the Law Times report. Round 1 found and fixed three things: 'opened a consultation on November 17' (the notice is dated November 17, but the page shows the submission date was changed, so the opening date is not known; now 'a notice dated November 17'), 'wants' (the proposal is a committee's; now 'is consulting' and 'committee has proposed'), and a sentence saying what the consultation report contains (the report could not be opened; now says only that it is linked). Round 2 softened one headline ('fall short' to 'sees limits', the source says 'limitations'). No claim about the practice. Flagged, not failed, for two reasons a person should weigh: (1) the committee's consultation report (a PDF on another host) could not be opened, so the post rests on the Law Society's own summary pages and gives no detail of the technology; (2) the statement of the current rule (slide 4, Facebook, LinkedIn) is taken from the Law Society's client identification and verification guidance page, not from the by-law text, which was not opened; it is worded as 'the general rule in Law Society guidance' and no section is cited."
+      },
+      {
+        "id": "R2",
+        "result": "pass",
+        "note": "No stated or implied outcome for any reader. 'Further protect the public' is the regulator's own stated aim for its proposal, reported as such. The fixed closing headline 'Get clarity. Protect what matters most.' promises no result."
+      },
+      {
+        "id": "R3",
+        "result": "pass",
+        "note": "No specialist, expert or certified wording on slides, captions, hashtags or the Google post."
+      },
+      {
+        "id": "R4",
+        "result": "pass",
+        "note": "No superlative and no comparison with other lawyers. The 30 hashtags are topic and place tags; none claims superiority."
+      },
+      {
+        "id": "R5",
+        "result": "pass",
+        "note": "No fee wording. No consultation offer anywhere; the standard closing slide carries only the fixed headline and the email address."
+      },
+      {
+        "id": "R6",
+        "result": "pass",
+        "note": "No client, matter or case of the practice. No person is named or identifiable."
+      },
+      {
+        "id": "R7",
+        "result": "pass",
+        "note": "The December 31, 2026 date is the regulator's date for consultation feedback, given as information. Nothing urges a reader to retain anyone or act by a date. 'Save this post to keep the dates handy' is not pressure."
+      },
+      {
+        "id": "R8",
+        "result": "pass",
+        "note": "Plain, professional tone. Real estate fraud is mentioned only in the regulator's own words ('recent events showing an escalation in real estate fraud'), with no alarm added."
+      },
+      {
+        "id": "R9",
+        "result": "pass",
+        "note": "General education: what is proposed, by whom, and the current general rule. One sentence says the way identity is confirmed 'could change if the proposal is adopted' for people buying or selling property in general; it does not apply the law to a reader's facts or tell anyone what to do. Each caption and the Google post end with the fixed disclaimer; slide 6 ends with 'General legal information. Not legal advice.'"
+      },
+      {
+        "id": "R10",
+        "result": "n/a",
+        "note": "Not a review request and asks for no reviews."
+      },
+      {
+        "id": "R11",
+        "result": "pass",
+        "note": "(b) No superiority or results hashtag. (c) Reports a regulator's consultation as general education. The Law Times article also mentions allegations against lawyers and a court's criticism of the regulator; none of that is used, and no party or lawyer is named or commented on. (d) No engagement bait."
+      }
+    ],
+    "flags": [
+      "Change in law: the post discusses a proposed change to the Law Society's requirements for lawyers (not adopted). The engine asks for a person whenever content discusses a change in law; a proposal is the borderline case and is treated as covered.",
+      "R1: the consultation report (PDF linked from the Law Society's consultation page) could not be opened in this session. A person should read it and confirm the post's summary matches it before release.",
+      "R1: the current identity verification rule is stated from the Law Society's guidance page, not from the by-law text. A person should confirm the wording against the by-law.",
+      "Standing item, not specific to this post: the tagline 'CLARITY · GUIDANCE · RESULTS' on the Estates closing slide. Whether 'Results' implies an outcome under R2 is for a licensee to judge (content-plan.md section 12). This post uses the standard closing slide, which does not carry it.",
+      "Standing item, not specific to this post: the Estates closing slide offers to get 'an Estate Plan, Will, or POA done'. Who provides that service must be clear (content-plan.md section 12). Not on this post's closing slide."
+    ],
+    "requires_human_review": true,
+    "compliance_log": "Screened LSO 4.2: no results claims, no specialist language, no superiority claims, no fee statements. Confidentiality: no client reference. Discusses a proposed change to regulator requirements; two source points flagged for a person to check. PASS with flag.",
+    "content_hash": "sha256:fedb5aade67cade87e0d97bcbdb2136ba0bf94d0609063cf0fd2822674eddb41"
+  }
+}

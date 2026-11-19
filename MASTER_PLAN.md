@@ -25,6 +25,7 @@ review_days: 30
 |---|---|---|
 | K1 | A separate repository holds all skills, for use across Taimur's businesses (Taimur, 2026-11-19) | 2026-11-19 |
 | K2 | All marketing skills from the five usable sources are taken (Taimur, 2026-11-19). Two sources are not taken (README) | 2026-11-19 |
+| K4 | Pextrade AI's own creative formats are kept here as skills, under Instagram Carousel Formats. law-firm-seo-content stays the original for the renderer and theme | 2026-11-19 |
 | K3 | Skills only: hooks, installers, connector settings and the sources' CLAUDE.md and AGENTS.md files are never carried over | 2026-11-19 |
 
 ## 4. Structural index

@@ -1,0 +1,50 @@
+{
+  "client": "pextrade-law",
+  "title": "UK Lawyer Banned in First AI Citation Case: What Canadian Practitioners Must Know",
+  "category": "Legal Tech",
+  "date": "2026-09-20",
+  "source": {
+    "note": "Text copied word for word from the carousel published on 20 Sep 2026 (the last Pextrade Law post). Nothing new is written here. The cover slide says layout standard because this post was published before The Advisory Brief cover existed (decision L11, 19 Nov 2026); without that line a Legal Tech post gets the new cover."
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "layout": "standard",
+      "headline": "An AI Fabricated the Cases. A Lawyer Lost Their Career.",
+      "subline": "What the UK's first AI citation ban means for Canadian legal practice"
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Case",
+      "headline": "A Solicitor. A Chatbot. A Career-Ending Filing.",
+      "body": "A UK solicitor used AI to research a legal brief. The tool returned case citations that looked real: correct format, plausible names, proper court references. None of the cases existed. Opposing counsel checked every source. Every citation was fabricated."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Ruling",
+      "headline": "The First Ban of Its Kind.",
+      "body": "The solicitor was permanently banned from legal practice. The tribunal's reasoning was direct: a legal professional holds the obligation to verify the law before it reaches a court. That obligation does not transfer to the tool."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Myth",
+      "headline": "AI Tools Are Legal Research Tools.",
+      "body": "AI language models are prediction engines. They generate text that looks like legal research. They retrieve nothing. A fabricated citation looks identical to a real one right up until someone checks the source."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Stakes",
+      "headline": "What This Means for Canadian Practitioners.",
+      "body": "Canada has not yet seen a discipline case of this scale. But the Law Society of Ontario is reviewing AI use standards. The UK's precedent is set in a peer common-law system. The direction of travel is no longer uncertain."
+    },
+    {
+      "type": "body",
+      "eyebrow": "The Solution",
+      "headline": "Verify Every AI-Assisted Output Before It Leaves Your Firm.",
+      "body": "The workflow that protects a licence is straightforward: AI drafts, a qualified professional verifies. Any process that bypasses that verification is a professional conduct exposure."
+    },
+    {
+      "type": "closing"
+    }
+  ]
+}
