@@ -27,3 +27,4 @@ review_days: 30
 | `SKL-013` | plugins/seo-toolkit (29 skills) | skill pack | 2 | active | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) at `468ed5b0d9e3` | 2026-11-19 | 90 |
 | `SKL-014` | plugins/aaron-marketing (120 skills) | skill pack | 2 | active | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) at `ed7428a6919b` | 2026-11-19 | 90 |
 | `SKL-015` | plugins/alirezarezvani-marketing (58 skills) | skill pack | 2 | active | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) at `f8593c494121` | 2026-11-19 | 90 |
+| `SKL-016` | plugins/instagram-carousel-formats (4 skills, renderer, theme, examples, reference images) | skill pack, own work | 2 | active | `gettaimurkhan-ux/law-firm-seo-content` at `06e2e59` | 2026-11-19 | 30 |

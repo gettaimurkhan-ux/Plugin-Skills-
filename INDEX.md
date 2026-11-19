@@ -10,10 +10,14 @@ review_days: 30
 
 # Skills index
 
-273 skills in 6 packs. A skill is called as `pack:name`. Descriptions are the authors' own, shortened. Generated from the SKILL.md files on 2026-11-19.
+277 skills in 7 packs. A skill is called as `pack:name`. Descriptions are the authors' own, shortened. Generated from the SKILL.md files on 2026-11-19.
 
 | Skill | Folder | What it does |
 |---|---|---|
+| `instagram-carousel-formats:advisory-brief-cover` | `plugins/instagram-carousel-formats/skills/advisory-brief-cover` | The Advisory Brief: the editorial newsletter cover, from Taimur's master prompt |
+| `instagram-carousel-formats:cutout-cover` | `plugins/instagram-carousel-formats/skills/cutout-cover` | The Cutout Cover: the lock-and-swap card cover |
+| `instagram-carousel-formats:plain-cover` | `plugins/instagram-carousel-formats/skills/plain-cover` | The original plain cover |
+| `instagram-carousel-formats:format-rotation` | `plugins/instagram-carousel-formats/skills/format-rotation` | Which format a post gets: the three take turns |
 | `no-ai-slop:no-ai-slop` | `plugins/no-ai-slop/skills/no-ai-slop` | Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft... |
 | `careful-marketing:anti-slop` | `plugins/careful-marketing/skills/anti-slop` | Detects and removes AI-generated fluff from content. Use when reviewing drafts, cleaning AI output, or enforcing a brand voice. Flags issues and rewrites. |
 | `careful-marketing:anti-spam` | `plugins/careful-marketing/skills/anti-spam` | Evergreen pass/fail gate that detects scaled-content and mass-generation signatures in AI-drafted blog posts BEFORE publishing — the patterns Google spam systems and LLMs... |

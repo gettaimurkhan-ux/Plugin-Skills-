@@ -8,6 +8,11 @@
   },
   "plugins": [
     {
+      "name": "instagram-carousel-formats",
+      "source": "./plugins/instagram-carousel-formats",
+      "description": "Pextrade AI's own Instagram carousel formats: The Advisory Brief, The Cutout Cover and the plain cover, the rule that rotates them, and the renderer."
+    },
+    {
       "name": "no-ai-slop",
       "source": "./plugins/no-ai-slop",
       "description": "Edit drafts into plain, human writing, or flag AI-sounding patterns without rewriting (Peter Yang, MIT)."

@@ -1,0 +1,14 @@
+{
+  "name": "instagram-carousel-formats",
+  "description": "Pextrade AI's own Instagram carousel formats: The Advisory Brief (editorial newsletter cover), The Cutout Cover (lock-and-swap card) and the plain cover, the rule that rotates them from post to post, and the renderer that draws them.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pextrade AI"
+  },
+  "skills": [
+    "./skills/advisory-brief-cover",
+    "./skills/cutout-cover",
+    "./skills/plain-cover",
+    "./skills/format-rotation"
+  ]
+}
