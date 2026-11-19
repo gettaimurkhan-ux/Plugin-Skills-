@@ -1,0 +1,24 @@
+{
+  "name": "free-claude-skills",
+  "description": "Careful marketing workflow, anti-slop and anti-spam checks, SEO content strategy, keyword research, social captions, landing pages (Ryan Doser, MIT).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pextrade AI (collected)"
+  },
+  "homepage": "https://github.com/rdoser13/free-claude-skills",
+  "license": "see LICENSE",
+  "skills": [
+    "./skills/anti-slop",
+    "./skills/anti-spam",
+    "./skills/careful-marketer",
+    "./skills/cro-audit",
+    "./skills/keyword-research",
+    "./skills/landing-page-designer",
+    "./skills/linkedin-profile-scraper",
+    "./skills/listicle-blog-post-writer",
+    "./skills/seo-content-strategy",
+    "./skills/short-form-video-scripts",
+    "./skills/social-media-manager",
+    "./skills/web-designer"
+  ]
+}

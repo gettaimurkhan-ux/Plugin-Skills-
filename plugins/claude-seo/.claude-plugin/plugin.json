@@ -1,0 +1,41 @@
+{
+  "name": "claude-seo",
+  "description": "SEO and AI-search toolkit by agricidaniel: Search Console, local SEO, page checks, schema, GEO, technical audits (MIT).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pextrade AI (collected)"
+  },
+  "homepage": "https://github.com/AgriciDaniel/claude-seo",
+  "license": "see LICENSE",
+  "skills": [
+    "./skills/seo",
+    "./skills/seo-agentic",
+    "./skills/seo-audit",
+    "./skills/seo-backlinks",
+    "./skills/seo-bing",
+    "./skills/seo-cluster",
+    "./skills/seo-competitor-pages",
+    "./skills/seo-content",
+    "./skills/seo-content-brief",
+    "./skills/seo-dataforseo",
+    "./skills/seo-drift",
+    "./skills/seo-ecommerce",
+    "./skills/seo-flow",
+    "./skills/seo-geo",
+    "./skills/seo-google",
+    "./skills/seo-hreflang",
+    "./skills/seo-image-gen",
+    "./skills/seo-images",
+    "./skills/seo-local",
+    "./skills/seo-maps",
+    "./skills/seo-page",
+    "./skills/seo-plan",
+    "./skills/seo-posthog",
+    "./skills/seo-programmatic",
+    "./skills/seo-schema",
+    "./skills/seo-shopify",
+    "./skills/seo-sitemap",
+    "./skills/seo-sxo",
+    "./skills/seo-technical"
+  ]
+}
