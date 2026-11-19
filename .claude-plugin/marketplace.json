@@ -1,0 +1,41 @@
+{
+  "name": "pextrade-skills",
+  "owner": {
+    "name": "Pextrade AI"
+  },
+  "metadata": {
+    "description": "Marketing, SEO and writing skills collected for Pextrade AI and its businesses. Skills only: no hooks, installers or connectors."
+  },
+  "plugins": [
+    {
+      "name": "no-ai-slop",
+      "source": "./plugins/no-ai-slop",
+      "description": "Edit drafts into plain, human writing, or flag AI-sounding patterns without rewriting (Peter Yang, MIT)."
+    },
+    {
+      "name": "careful-marketing",
+      "source": "./plugins/careful-marketing",
+      "description": "Careful marketing workflow, anti-slop and anti-spam checks, SEO content strategy, keyword research, social captions, landing pages (Ryan Doser, MIT)."
+    },
+    {
+      "name": "marketingskills",
+      "source": "./plugins/marketingskills",
+      "description": "Marketing skills by Corey Haines: SEO audit, AI SEO, schema, programmatic SEO, social, ads, CRO, email, offers (MIT)."
+    },
+    {
+      "name": "seo-toolkit",
+      "source": "./plugins/seo-toolkit",
+      "description": "SEO and AI-search toolkit by agricidaniel: Search Console, local SEO, page checks, schema, GEO, technical audits (MIT)."
+    },
+    {
+      "name": "aaron-marketing",
+      "source": "./plugins/aaron-marketing",
+      "description": "Aaron He Zhu's marketing system: SEO and GEO, social, ads, email, launch, narrative, influencer (Apache 2.0)."
+    },
+    {
+      "name": "alirezarezvani-marketing",
+      "source": "./plugins/alirezarezvani-marketing",
+      "description": "Marketing skills from Alireza Rezvani's collection: content, SEO and AEO, local SEO, CRO, channels, LinkedIn, landing pages (MIT)."
+    }
+  ]
+}

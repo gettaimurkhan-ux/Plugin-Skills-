@@ -1,0 +1,13 @@
+{
+  "name": "no-ai-slop",
+  "description": "Edit drafts into plain, human writing, or flag AI-sounding patterns without rewriting (Peter Yang, MIT).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pextrade AI (collected)"
+  },
+  "homepage": "https://github.com/petergyang/no-ai-slop",
+  "license": "see LICENSE",
+  "skills": [
+    "./skills/no-ai-slop"
+  ]
+}
