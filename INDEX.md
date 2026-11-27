@@ -4,13 +4,13 @@ title: Skills index (every skill in this repository)
 tier: 2
 status: active
 created: 2026-11-19
-last_verified: 2026-11-19
+last_verified: 2026-11-27
 review_days: 30
 ---
 
 # Skills index
 
-277 skills in 7 packs. A skill is called as `pack:name`. Descriptions are the authors' own, shortened. Generated from the SKILL.md files on 2026-11-19.
+279 skills in 8 packs. A skill is called as `pack:name`. Descriptions are the authors' own, shortened. Generated from the SKILL.md files on 2026-11-19.
 
 | Skill | Folder | What it does |
 |---|---|---|
@@ -18,6 +18,8 @@ review_days: 30
 | `instagram-carousel-formats:cutout-cover` | `plugins/instagram-carousel-formats/skills/cutout-cover` | The Cutout Cover: the lock-and-swap card cover |
 | `instagram-carousel-formats:plain-cover` | `plugins/instagram-carousel-formats/skills/plain-cover` | The original plain cover |
 | `instagram-carousel-formats:format-rotation` | `plugins/instagram-carousel-formats/skills/format-rotation` | Which format a post gets: the three take turns |
+| `meta-setup:instagram-login-api` | `plugins/meta-setup/skills/instagram-login-api` | Post to your own Instagram accounts by API with no Facebook Page: app, testers, tokens, renewal, checks, ISP proxy |
+| `meta-setup:business-portfolio` | `plugins/meta-setup/skills/business-portfolio` | Meta business portfolio: Pages and Instagram, adding people and partners, System User tokens, checks |
 | `no-ai-slop:no-ai-slop` | `plugins/no-ai-slop/skills/no-ai-slop` | Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft... |
 | `careful-marketing:anti-slop` | `plugins/careful-marketing/skills/anti-slop` | Detects and removes AI-generated fluff from content. Use when reviewing drafts, cleaning AI output, or enforcing a brand voice. Flags issues and rewrites. |
 | `careful-marketing:anti-spam` | `plugins/careful-marketing/skills/anti-spam` | Evergreen pass/fail gate that detects scaled-content and mass-generation signatures in AI-drafted blog posts BEFORE publishing — the patterns Google spam systems and LLMs... |

@@ -4,13 +4,13 @@ title: Plugin-Skills- — README
 tier: 1
 status: active
 created: 2026-11-19
-last_verified: 2026-11-19
+last_verified: 2026-11-27
 review_days: 30
 ---
 
 # Plugin-Skills-
 
-A repository for Skills. One place for the Claude skills Pextrade AI uses across its businesses: marketing, SEO, AI-search visibility, social content, ads, email and plain writing. 277 skills in 7 packs: Pextrade AI's own Instagram carousel formats, and six packs collected from public repositories and read before they were added.
+A repository for Skills. One place for the Claude skills Pextrade AI uses across its businesses: marketing, SEO, AI-search visibility, social content, ads, email and plain writing. 279 skills in 8 packs: Pextrade AI's own Instagram carousel formats and Meta setup guides, and six packs collected from public repositories and read before they were added.
 
 ## Use it in a project
 
@@ -28,6 +28,7 @@ Install only the packs a project needs. Each pack's skills are called as `pack:n
 | Pack | Source | Version taken | Skills | Licence |
 |---|---|---|---|---|
 | `instagram-carousel-formats` | Pextrade AI's own (from `law-firm-seo-content`) | `06e2e59` (2026-11-19) | 4 | Pextrade AI |
+| `meta-setup` | Pextrade AI's own | written 2026-11-27 | 2 | Pextrade AI |
 | `no-ai-slop` | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | `000650b15698` (2026-09-01) | 1 | MIT |
 | `careful-marketing` | [rdoser13/free-claude-skills](https://github.com/rdoser13/free-claude-skills) | `4751aafc3159` (2026-10-19) | 12 | MIT |
 | `marketingskills` | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | `73573e94a06a` (2026-11-17) | 53 | MIT |
@@ -42,6 +43,10 @@ Each pack keeps its author's licence in `plugins/<pack>/LICENSE`.
 ## Instagram Carousel Formats
 
 Pextrade AI's own creative formats live in `plugins/instagram-carousel-formats/`: The Advisory Brief (`advisory-brief-cover`), The Cutout Cover (`cutout-cover`), the plain cover (`plain-cover`) and the rule that rotates them from post to post (`format-rotation`). The pack carries the renderer, the brand theme, one example and one reference image per format. New formats are added here as new skills.
+
+## Meta setup
+
+Pextrade AI's own guides in `plugins/meta-setup/`: `instagram-login-api` (posting to your own Instagram accounts with no Facebook Page: one developer app, Instagram testers, 60-day tokens, read-only checks, a fixed residential IP) and `business-portfolio` (Pages and Instagram in a business portfolio, adding people and partners with least access, System User tokens). General steps only, because this repository is public; account names and ids stay in the private Pextrade-AI repository.
 
 ## What was left out, and why
 
