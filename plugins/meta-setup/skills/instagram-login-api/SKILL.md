@@ -7,7 +7,9 @@ description: Set up automated Instagram posting through Meta's official "Instagr
 
 Meta's route for posting to **your own** Instagram professional accounts without any Facebook Page on them. Steps and screen names are as of November 2026; Meta renames screens often, so if a screen differs, ask the person for a screenshot and match by meaning.
 
-Use the other skill in this pack, `business-portfolio`, instead when the accounts already sit in a Meta business portfolio with Facebook Pages, or when other people need managed access.
+**Newer apps (seen 27 Nov 2026) no longer offer "API setup with Instagram login".** They show **API setup with Unified login**, whose tokens start `EAA`, are called on `graph.facebook.com` and name the account by its Instagram account ID. If the app page shows Unified login, or a token starts `EAA`, use `meta-instagram-setup` in this pack; the addresses and the renewal call below do not apply to those tokens.
+
+Use `business-portfolio` instead when the accounts already sit in a Meta business portfolio with Facebook Pages, or when other people need managed access.
 
 ## What it needs
 

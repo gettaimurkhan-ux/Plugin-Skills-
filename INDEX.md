@@ -10,7 +10,7 @@ review_days: 30
 
 # Skills index
 
-279 skills in 8 packs. A skill is called as `pack:name`. Descriptions are the authors' own, shortened. Generated from the SKILL.md files on 2026-11-19.
+280 skills in 8 packs. A skill is called as `pack:name`. Descriptions are the authors' own, shortened. Generated from the SKILL.md files on 2026-11-19.
 
 | Skill | Folder | What it does |
 |---|---|---|
@@ -19,6 +19,7 @@ review_days: 30
 | `instagram-carousel-formats:plain-cover` | `plugins/instagram-carousel-formats/skills/plain-cover` | The original plain cover |
 | `instagram-carousel-formats:format-rotation` | `plugins/instagram-carousel-formats/skills/format-rotation` | Which format a post gets: the three take turns |
 | `meta-setup:instagram-login-api` | `plugins/meta-setup/skills/instagram-login-api` | Post to your own Instagram accounts by API with no Facebook Page: app, testers, tokens, renewal, checks, ISP proxy |
+| `meta-setup:meta-instagram-setup` | `plugins/meta-setup/skills/meta-instagram-setup` | Walk a brand's Meta developer app through testers, portfolio, permissions and tokens in the browser; Unified login token kind and address |
 | `meta-setup:business-portfolio` | `plugins/meta-setup/skills/business-portfolio` | Meta business portfolio: Pages and Instagram, adding people and partners, System User tokens, checks |
 | `no-ai-slop:no-ai-slop` | `plugins/no-ai-slop/skills/no-ai-slop` | Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft... |
 | `careful-marketing:anti-slop` | `plugins/careful-marketing/skills/anti-slop` | Detects and removes AI-generated fluff from content. Use when reviewing drafts, cleaning AI output, or enforcing a brand voice. Flags issues and rewrites. |
