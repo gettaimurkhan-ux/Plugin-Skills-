@@ -1,0 +1,13 @@
+{
+  "name": "meta-setup",
+  "description": "Pextrade AI's own guides for Meta setup: Instagram API with Instagram Login (no Facebook Page), the browser walk-through for newer apps on Unified login, and the business portfolio route (people, roles, System User tokens), with tokens kept in environment settings and posting through a fixed residential IP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pextrade AI"
+  },
+  "skills": [
+    "./skills/instagram-login-api",
+    "./skills/business-portfolio",
+    "./skills/meta-instagram-setup"
+  ]
+}

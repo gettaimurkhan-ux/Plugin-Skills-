@@ -4,7 +4,7 @@ title: Registry
 tier: 2
 status: active
 created: 2026-11-19
-last_verified: 2026-11-19
+last_verified: 2026-11-27
 review_days: 30
 ---
 
@@ -28,3 +28,4 @@ review_days: 30
 | `SKL-014` | plugins/aaron-marketing (120 skills) | skill pack | 2 | active | [aaron-he-zhu/aaron-marketing-skills](https://github.com/aaron-he-zhu/aaron-marketing-skills) at `ed7428a6919b` | 2026-11-19 | 90 |
 | `SKL-015` | plugins/alirezarezvani-marketing (58 skills) | skill pack | 2 | active | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) at `f8593c494121` | 2026-11-19 | 90 |
 | `SKL-016` | plugins/instagram-carousel-formats (4 skills, renderer, theme, examples, reference images) | skill pack, own work | 2 | active | `gettaimurkhan-ux/law-firm-seo-content` at `06e2e59` | 2026-11-19 | 30 |
+| `SKL-017` | plugins/meta-setup (3 skills) | skill pack, own work | 2 | active | Pextrade AI's own, written 2026-11-27 | 2026-11-27 | 30 |
